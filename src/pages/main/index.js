@@ -4,12 +4,7 @@ import React from 'react';
 import { Title } from './styles';
 
 const Main = () => {
-  return (
-    <Title error>
-      Main
-      <span>Menor</span>
-    </Title>
-  );
+  return <Title>Hello world!</Title>;
 };
 
 export default Main;
